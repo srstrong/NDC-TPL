@@ -1,0 +1,139 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00 - CacheDemo", "CacheDemo\00 - CacheDemo.csproj", "{05C25F8C-84DE-4417-AB34-5654193BE9AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 -Parallel.For ImageConversion", "ImageConversion\01 -Parallel.For ImageConversion.csproj", "{89AF0925-F4CA-4FD4-BF8D-C43AF6BF0B71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 - Parallel.For ImageConversionWithProgressIndication", "ImageConversionWithProgressIndication\02 - Parallel.For ImageConversionWithProgressIndication.csproj", "{26D8C662-F059-4794-943E-B07B97373CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 - Parallel.ForEach DuplicateFileFinder", "DuplicateFileFinder\03 - Parallel.ForEach DuplicateFileFinder.csproj", "{7390F48F-3E02-486D-9892-794C45370FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 - LocalData SumTransactions", "SumTransactions\05 - LocalData SumTransactions.csproj", "{55C0DE85-92A8-4246-A3B4-F9C9C8D86A5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 - ParallelLoopState", "ParallelLoopState\04 - ParallelLoopState.csproj", "{4183EEE9-A956-46C1-9CDF-E84A9ED81E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 - ParallelOptions", "ParallelOptions\06 - ParallelOptions.csproj", "{E0CD2AA8-A0DE-47BC-B1B1-A7610A75C232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 - Exceptions", "Exceptions\08 - Exceptions.csproj", "{4F617261-71B4-4C52-A105-877C225F1541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 - BasicTaskFunctionality", "BasicTaskFunctionality\11 - BasicTaskFunctionality.csproj", "{C75AF0A1-ADFC-4EB0-86C2-F53DD8C66696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 - Cancellation", "Cancellation\09 - Cancellation.csproj", "{EF41AD68-E410-48D2-A162-DC7C92F3C00C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 - CooperativeCancellation", "CooperativeCancellation\10 - CooperativeCancellation.csproj", "{34348FF3-7543-456C-B819-B0910AFE636E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 - Continuations", "Continuations\12 - Continuations.csproj", "{A248FEA5-B09C-4E61-8658-56CF17F25228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 - NestedTasks", "NestedTasks\13 - NestedTasks.csproj", "{6EE11366-A21B-4187-80BD-919D812B8EB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 - AsyncSupport", "AsyncSupport\14 - AsyncSupport.csproj", "{AE3A6F80-F902-4BC6-9E7F-B56402073D6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 - Partitions", "Partitions\07 - Partitions.csproj", "{DBD8B893-32C3-44DF-85B2-D4825DF9B096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 - ChainedAsync", "ChainedAsync\15 - ChainedAsync.csproj", "{5C5D77B0-23B3-4420-B39D-E177684D961A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 - EnumerableAsync", "EnumerableAsyncç\16 - EnumerableAsync.csproj", "{5E676858-D75D-4C2D-B187-6C09222619B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 - EnumerableAsyncWithTrace", "EnumerableAsyncWithTrace\17 - EnumerableAsyncWithTrace.csproj", "{306F8C06-27CC-4A1D-B679-F4EE79C62645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18 - PLinq", "PLinq\18 - PLinq.csproj", "{3E5D8AC4-7EE9-459B-8D35-896E8E35CF95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19 - UIThread", "UIThread\19 - UIThread.csproj", "{EC1B8763-401F-4371-A658-44D67CE63C41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A930C2F-DFE2-4C6B-97F2-4B3463F08AF2}"
+	ProjectSection(SolutionItems) = preProject
+		Performance1.psess = Performance1.psess
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05C25F8C-84DE-4417-AB34-5654193BE9AC}.Debug|x86.ActiveCfg = Debug|x86
+		{05C25F8C-84DE-4417-AB34-5654193BE9AC}.Debug|x86.Build.0 = Debug|x86
+		{05C25F8C-84DE-4417-AB34-5654193BE9AC}.Release|x86.ActiveCfg = Release|x86
+		{05C25F8C-84DE-4417-AB34-5654193BE9AC}.Release|x86.Build.0 = Release|x86
+		{89AF0925-F4CA-4FD4-BF8D-C43AF6BF0B71}.Debug|x86.ActiveCfg = Debug|x86
+		{89AF0925-F4CA-4FD4-BF8D-C43AF6BF0B71}.Debug|x86.Build.0 = Debug|x86
+		{89AF0925-F4CA-4FD4-BF8D-C43AF6BF0B71}.Release|x86.ActiveCfg = Release|x86
+		{89AF0925-F4CA-4FD4-BF8D-C43AF6BF0B71}.Release|x86.Build.0 = Release|x86
+		{26D8C662-F059-4794-943E-B07B97373CCE}.Debug|x86.ActiveCfg = Debug|x86
+		{26D8C662-F059-4794-943E-B07B97373CCE}.Debug|x86.Build.0 = Debug|x86
+		{26D8C662-F059-4794-943E-B07B97373CCE}.Release|x86.ActiveCfg = Release|x86
+		{26D8C662-F059-4794-943E-B07B97373CCE}.Release|x86.Build.0 = Release|x86
+		{7390F48F-3E02-486D-9892-794C45370FED}.Debug|x86.ActiveCfg = Debug|x86
+		{7390F48F-3E02-486D-9892-794C45370FED}.Debug|x86.Build.0 = Debug|x86
+		{7390F48F-3E02-486D-9892-794C45370FED}.Release|x86.ActiveCfg = Release|x86
+		{7390F48F-3E02-486D-9892-794C45370FED}.Release|x86.Build.0 = Release|x86
+		{55C0DE85-92A8-4246-A3B4-F9C9C8D86A5E}.Debug|x86.ActiveCfg = Debug|x86
+		{55C0DE85-92A8-4246-A3B4-F9C9C8D86A5E}.Debug|x86.Build.0 = Debug|x86
+		{55C0DE85-92A8-4246-A3B4-F9C9C8D86A5E}.Release|x86.ActiveCfg = Release|x86
+		{55C0DE85-92A8-4246-A3B4-F9C9C8D86A5E}.Release|x86.Build.0 = Release|x86
+		{4183EEE9-A956-46C1-9CDF-E84A9ED81E6A}.Debug|x86.ActiveCfg = Debug|x86
+		{4183EEE9-A956-46C1-9CDF-E84A9ED81E6A}.Debug|x86.Build.0 = Debug|x86
+		{4183EEE9-A956-46C1-9CDF-E84A9ED81E6A}.Release|x86.ActiveCfg = Release|x86
+		{4183EEE9-A956-46C1-9CDF-E84A9ED81E6A}.Release|x86.Build.0 = Release|x86
+		{E0CD2AA8-A0DE-47BC-B1B1-A7610A75C232}.Debug|x86.ActiveCfg = Debug|x86
+		{E0CD2AA8-A0DE-47BC-B1B1-A7610A75C232}.Debug|x86.Build.0 = Debug|x86
+		{E0CD2AA8-A0DE-47BC-B1B1-A7610A75C232}.Release|x86.ActiveCfg = Release|x86
+		{E0CD2AA8-A0DE-47BC-B1B1-A7610A75C232}.Release|x86.Build.0 = Release|x86
+		{4F617261-71B4-4C52-A105-877C225F1541}.Debug|x86.ActiveCfg = Debug|x86
+		{4F617261-71B4-4C52-A105-877C225F1541}.Debug|x86.Build.0 = Debug|x86
+		{4F617261-71B4-4C52-A105-877C225F1541}.Release|x86.ActiveCfg = Release|x86
+		{4F617261-71B4-4C52-A105-877C225F1541}.Release|x86.Build.0 = Release|x86
+		{C75AF0A1-ADFC-4EB0-86C2-F53DD8C66696}.Debug|x86.ActiveCfg = Debug|x86
+		{C75AF0A1-ADFC-4EB0-86C2-F53DD8C66696}.Debug|x86.Build.0 = Debug|x86
+		{C75AF0A1-ADFC-4EB0-86C2-F53DD8C66696}.Release|x86.ActiveCfg = Release|x86
+		{C75AF0A1-ADFC-4EB0-86C2-F53DD8C66696}.Release|x86.Build.0 = Release|x86
+		{EF41AD68-E410-48D2-A162-DC7C92F3C00C}.Debug|x86.ActiveCfg = Debug|x86
+		{EF41AD68-E410-48D2-A162-DC7C92F3C00C}.Debug|x86.Build.0 = Debug|x86
+		{EF41AD68-E410-48D2-A162-DC7C92F3C00C}.Release|x86.ActiveCfg = Release|x86
+		{EF41AD68-E410-48D2-A162-DC7C92F3C00C}.Release|x86.Build.0 = Release|x86
+		{34348FF3-7543-456C-B819-B0910AFE636E}.Debug|x86.ActiveCfg = Debug|x86
+		{34348FF3-7543-456C-B819-B0910AFE636E}.Debug|x86.Build.0 = Debug|x86
+		{34348FF3-7543-456C-B819-B0910AFE636E}.Release|x86.ActiveCfg = Release|x86
+		{34348FF3-7543-456C-B819-B0910AFE636E}.Release|x86.Build.0 = Release|x86
+		{A248FEA5-B09C-4E61-8658-56CF17F25228}.Debug|x86.ActiveCfg = Debug|x86
+		{A248FEA5-B09C-4E61-8658-56CF17F25228}.Debug|x86.Build.0 = Debug|x86
+		{A248FEA5-B09C-4E61-8658-56CF17F25228}.Release|x86.ActiveCfg = Release|x86
+		{A248FEA5-B09C-4E61-8658-56CF17F25228}.Release|x86.Build.0 = Release|x86
+		{6EE11366-A21B-4187-80BD-919D812B8EB4}.Debug|x86.ActiveCfg = Debug|x86
+		{6EE11366-A21B-4187-80BD-919D812B8EB4}.Debug|x86.Build.0 = Debug|x86
+		{6EE11366-A21B-4187-80BD-919D812B8EB4}.Release|x86.ActiveCfg = Release|x86
+		{6EE11366-A21B-4187-80BD-919D812B8EB4}.Release|x86.Build.0 = Release|x86
+		{AE3A6F80-F902-4BC6-9E7F-B56402073D6C}.Debug|x86.ActiveCfg = Debug|x86
+		{AE3A6F80-F902-4BC6-9E7F-B56402073D6C}.Debug|x86.Build.0 = Debug|x86
+		{AE3A6F80-F902-4BC6-9E7F-B56402073D6C}.Release|x86.ActiveCfg = Release|x86
+		{AE3A6F80-F902-4BC6-9E7F-B56402073D6C}.Release|x86.Build.0 = Release|x86
+		{DBD8B893-32C3-44DF-85B2-D4825DF9B096}.Debug|x86.ActiveCfg = Debug|x86
+		{DBD8B893-32C3-44DF-85B2-D4825DF9B096}.Debug|x86.Build.0 = Debug|x86
+		{DBD8B893-32C3-44DF-85B2-D4825DF9B096}.Release|x86.ActiveCfg = Release|x86
+		{DBD8B893-32C3-44DF-85B2-D4825DF9B096}.Release|x86.Build.0 = Release|x86
+		{5C5D77B0-23B3-4420-B39D-E177684D961A}.Debug|x86.ActiveCfg = Debug|x86
+		{5C5D77B0-23B3-4420-B39D-E177684D961A}.Debug|x86.Build.0 = Debug|x86
+		{5C5D77B0-23B3-4420-B39D-E177684D961A}.Release|x86.ActiveCfg = Release|x86
+		{5C5D77B0-23B3-4420-B39D-E177684D961A}.Release|x86.Build.0 = Release|x86
+		{5E676858-D75D-4C2D-B187-6C09222619B1}.Debug|x86.ActiveCfg = Debug|x86
+		{5E676858-D75D-4C2D-B187-6C09222619B1}.Debug|x86.Build.0 = Debug|x86
+		{5E676858-D75D-4C2D-B187-6C09222619B1}.Release|x86.ActiveCfg = Release|x86
+		{5E676858-D75D-4C2D-B187-6C09222619B1}.Release|x86.Build.0 = Release|x86
+		{306F8C06-27CC-4A1D-B679-F4EE79C62645}.Debug|x86.ActiveCfg = Debug|x86
+		{306F8C06-27CC-4A1D-B679-F4EE79C62645}.Debug|x86.Build.0 = Debug|x86
+		{306F8C06-27CC-4A1D-B679-F4EE79C62645}.Release|x86.ActiveCfg = Release|x86
+		{306F8C06-27CC-4A1D-B679-F4EE79C62645}.Release|x86.Build.0 = Release|x86
+		{3E5D8AC4-7EE9-459B-8D35-896E8E35CF95}.Debug|x86.ActiveCfg = Debug|x86
+		{3E5D8AC4-7EE9-459B-8D35-896E8E35CF95}.Debug|x86.Build.0 = Debug|x86
+		{3E5D8AC4-7EE9-459B-8D35-896E8E35CF95}.Release|x86.ActiveCfg = Release|x86
+		{3E5D8AC4-7EE9-459B-8D35-896E8E35CF95}.Release|x86.Build.0 = Release|x86
+		{EC1B8763-401F-4371-A658-44D67CE63C41}.Debug|x86.ActiveCfg = Debug|x86
+		{EC1B8763-401F-4371-A658-44D67CE63C41}.Debug|x86.Build.0 = Debug|x86
+		{EC1B8763-401F-4371-A658-44D67CE63C41}.Release|x86.ActiveCfg = Release|x86
+		{EC1B8763-401F-4371-A658-44D67CE63C41}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
